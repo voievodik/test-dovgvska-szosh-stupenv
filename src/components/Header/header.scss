@@ -1,0 +1,117 @@
+.header {
+  background-image: url(../../assets/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+
+  &__details {
+    padding-top: 150px;
+  }
+
+  &__description {
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 48px;
+    color: #fff;
+    background-color: rgba(48, 133, 195, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+
+  &__button-contact {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+  
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 11px 33px;
+
+    background-color: #EBE4D1;
+    color: rgba(1, 147, 220, 1);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    border: 2px solid #0193dc;
+
+    &:hover {
+      background-color: #0193dc;
+      color: #EBE4D1;
+    }
+  }
+
+  &__img-school {
+    width: 450px;
+    border-radius: 10px;
+    border: 2px solid white;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 826px) {
+  .header {
+    &__details {
+      padding-top: 100px;
+    }
+
+    &__description {
+      font-size: 14px;
+    }
+  
+    &__title {
+      font-size: 24px;
+    }
+
+    &__button-contact {
+      font-size: 12px;
+    }
+
+    &__img-school {
+      margin-top: 40px;
+      width: 350px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .header {
+    &__description {
+      font-size: 12px;
+      text-align: center;
+    }
+  
+    &__title {
+      font-size: 20px;
+      margin-bottom: 26px;
+      text-align: center;
+    }
+
+    &__button-contact {
+      font-size: 10px;
+      padding: 7px 27px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__img-school {
+      width: 250px;
+    }
+  }
+}

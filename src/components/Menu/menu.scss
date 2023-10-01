@@ -1,0 +1,149 @@
+@mixin activeBottomLine {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #213555;
+  transform: scaleX(1);
+}
+
+.menu {
+  background-color: #3085C3;
+  padding-block: 10px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    &-img {
+      width: 100px;
+    }
+
+    &-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__link {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    position: relative;
+    color: #fff;
+  
+    &::after {
+      @include activeBottomLine;
+      background-color: #fff;
+      transform: scaleX(0);
+      transform-origin: right center;
+      transition: transform 0.3s ease;
+    }
+  
+    &:hover::after {
+      transform: scaleX(1);
+      transform-origin: left center;
+    }
+  }
+
+  &__icon {
+    &-open, &-close {
+      display: none;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .menu {
+
+    &__link {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 1060px) {
+  .menu {
+
+    &__list {
+      display: none;
+      text-align: center;
+      flex-direction: column;
+      gap: 50px;
+      padding: 40px 0;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 99;
+
+      background-color: #3085C3;
+    }
+
+    &__link {
+      font-size: 18px;
+    }
+
+    &__icon {
+      &-open, &-close {
+        display: block;
+      }
+
+      &-close {
+        position: relative;
+        z-index: 100;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .menu {
+    &__logo-img {
+      width: 60px;
+    }
+
+    &__logo-title {
+      font-size: 12px;
+    }
+
+    &__list {
+      gap: 35px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
+}
+
+.is-active {
+  color: #213555;
+
+  &::after {
+    @include activeBottomLine;
+  }
+}
+
+.is-open {
+  display: flex;
+}
