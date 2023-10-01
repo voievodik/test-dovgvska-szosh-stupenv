@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { InfoButton } from '../../components/InfoButton';
 import { InfoText } from '../../components/InfoText';
 import { structure } from '../../utils/images';
+import { eduactionalProgram20222023, improvingQualification, schoolWorkPlan2022023 } from '../../utils/files';
 
 export const InfoPage = () => {
   const [showDetails, setShowDetails] = useState(0);
@@ -182,7 +183,7 @@ export const InfoPage = () => {
                     infoTitle={'Освітня програма'}
                   >
                     <InfoLink 
-                      link={'./src/assets/documents/Освітня програма програма 2022-2023.pdf'}
+                      link={eduactionalProgram20222023}
                       title={'2022-2023 навчальний рік'}
                     />
                   </InfoText>
@@ -193,7 +194,7 @@ export const InfoPage = () => {
                     infoTitle={'Підвищення кваліфікації педпрацівників'}
                   >
                     <InfoLink 
-                      link={'./src/assets/documents/Підвищення кваліфікації педпрацівників 2022-2023.pdf'}
+                      link={improvingQualification}
                       title={'2022-2023 навчальний рік'}
                     />
                   </InfoText>
@@ -204,7 +205,7 @@ export const InfoPage = () => {
                     infoTitle={'План роботи школи'}
                   >
                     <InfoLink 
-                      link={'./src/assets/documents/План роботи школи 2022-2023.pdf'}
+                      link={schoolWorkPlan2022023}
                       title={'2022-2023 навчальний рік'}
                     />
                   </InfoText>

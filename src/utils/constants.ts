@@ -1,4 +1,5 @@
 //images
+import { academicIntegrity, license, materialAndTechnicalSupport, modeOfOperationOfTheSchool, onlineStudying, rulesOfInternalProcedure, schoolServiceTerritory, sessionDecision, statut, strategyOfTheEducationalInstitution } from './files';
 import { 
   morshynRada, 
   ministryOfEducation, 
@@ -23,28 +24,6 @@ import {
   photo1,
   photo2
 } from './images';
-
-import rulesOfInternalProcedure from '../assets/documents/Правила внутрішнього розпорядку.pdf';
-import strategyOfTheEducationalInstitution from '../assets/documents/Стратегія закладу освіти.pdf';
-import materialAndTechnicalSupport from '../assets/documents/Матеріально-технічне забезпечення.pdf';
-import onlineStudying from '../assets/documents/Дистанційне навчання.pdf';
-import modeOfOperationOfTheSchool from '../assets/documents/Режим роботи школи.pdf';
-import eduactionalProgram20222023 from '../assets/documents/Освітня програма програма 2022-2023.pdf';
-import schoolWorkPlan2022023 from '../assets/documents/План роботи школи 2022-2023.pdf';
-import academicIntegrity from '../assets/documents/АКАДЕМІЧНА ДОБРОЧЕСНІСТЬ для вчителя і учня!.pdf';
-import improvingQualification from '../assets/documents/Підвищення кваліфікації педпрацівників 2022-2023.pdf';
-
-export {
-  rulesOfInternalProcedure,
-  strategyOfTheEducationalInstitution,
-  materialAndTechnicalSupport,
-  onlineStudying,
-  modeOfOperationOfTheSchool,
-  eduactionalProgram20222023,
-  schoolWorkPlan2022023,
-  academicIntegrity,
-  improvingQualification,
-};
 
 export const menu = [
   {
@@ -229,12 +208,12 @@ export const regulations = {
     {
       id: 1,
       title: 'Правила внутрішкільного розпорядку',
-      link: './src/assets/documents/Правила внутрішнього розпорядку.pdf',
+      link: rulesOfInternalProcedure,
     },
     {
       id: 2,
       title: 'Стратегія закладу освіти',
-      link: './src/assets/documents/Стратегія закладу освіти.pdf',
+      link: strategyOfTheEducationalInstitution,
     },
   ]
 }
@@ -246,27 +225,27 @@ export const informationAboutInstitution = {
     {
       id: 1,
       title: 'Ліцензія',
-      link: '../assets/documents/Ліцензія.pdf',
+      link: license,
     },
     {
       id: 2,
       title: 'Статус школи',
-      link: './src/assets/documents/Статут закладу освіти.pdf',
+      link: statut,
     },
     {
       id: 3,
       title: 'Територія обслуговування школи',
-      link: './src/assets/documents/Територія обслуговування школи.pdf',
+      link: schoolServiceTerritory,
     },
     {
       id: 4,
       title: 'Режим роботи школи',
-      link: './src/assets/documents/Режим роботи школи.pdf',
+      link: modeOfOperationOfTheSchool,
     },
     {
       id: 5,
       title: 'Рішення сесії',
-      link: './src/assets/documents/Рішення сесії.pdf',
+      link: sessionDecision,
     },
   ]
 }
@@ -278,7 +257,7 @@ export const opennessInstitution = {
     {
       id: 1,
       title: 'Академічна доброчесність для вчителя і учня!',
-      link: '../assets/documents/АКАДЕМІЧНА ДОБРОЧЕСНІСТЬ для вчителя і учня!.pdf',
+      link: academicIntegrity,
     },
   ]
 }
@@ -290,7 +269,7 @@ export const materialSupport = {
     {
       id: 1,
       title: 'Матеріально-технічне забезпечення',
-      link: '../assets/documents/Матеріально-технічне забезпечення.pdf',
+      link: materialAndTechnicalSupport,
     },
   ]
 }
@@ -302,7 +281,7 @@ export const onlineLearning = {
     {
       id: 1,
       title: 'Дистанційне навчання',
-      link: './src/assets/documents/Дистанційне навчання.pdf',
+      link: onlineStudying,
     },
   ]
 }
