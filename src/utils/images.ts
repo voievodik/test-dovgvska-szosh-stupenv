@@ -30,6 +30,8 @@ import persheSvyatePrychastya from '../assets/news/Перше Святе При�
 import proshchavayBukvaryku from '../assets/news/Прощавай Букварику.jpg';
 import svyatyyMykolay from '../assets/news/Святий Миколай.jpg';
 import urokDobroty from '../assets/news/Урок доброти.jpg';
+import vshanuvannyaHeroya1 from '../assets/news/Вшанування героя 1.jpg';
+import vshanuvannyaHeroya2 from '../assets/news/Вшанування героя 2.jpg';
 
 import structure from '../assets/structure.png';
 import photo1 from '../assets/gallery/photo1.jpg';
@@ -63,4 +65,6 @@ export {
   structure,
   photo1,
   photo2,
+  vshanuvannyaHeroya1,
+  vshanuvannyaHeroya2,
 }

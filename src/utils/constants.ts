@@ -22,7 +22,9 @@ import {
   svyatyyMykolay,
   urokDobroty,
   photo1,
-  photo2
+  photo2,
+  vshanuvannyaHeroya2,
+  vshanuvannyaHeroya1
 } from './images';
 
 export const menu = [
@@ -197,6 +199,18 @@ export const news = [
     newsImg: [
       budUvazhny1,
       budUvazhny2,
+    ]
+  },
+  {
+    id: 8,
+    title: 'Вшанування героя. На могилі у Пекара Олега',
+    description: 'З нагоди Дня Захисника України, учні Довгівської школи відвідали могилу загиблого Героя, Пекара Олега, щоб вшанувати його пам"ять. Там вони вклали квіти та виразили свою вдячність за його відвагу і жертовність у російсько-українській війні.',
+    facebookPost: '',
+    mainImg: vshanuvannyaHeroya1,
+    date: '1 жовтня 2023 року',
+    newsImg: [
+      vshanuvannyaHeroya1,
+      vshanuvannyaHeroya2,
     ]
   },
 ].reverse();
