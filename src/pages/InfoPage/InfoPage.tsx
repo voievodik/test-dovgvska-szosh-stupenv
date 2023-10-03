@@ -140,6 +140,52 @@ export const InfoPage = () => {
                       <br />З метою запобігання поширення випадків гострої респіраторної хвороби, спричиненої коронавірусом  COVID-19 повідомляємо, що документи та їх копії  щодо зарахування до школи  можна подавати в електронному вигляді (фотографії чи сканкопії) на скриньку <a href="mailto:48624@ukr.net">48624@ukr.net</a>  з поміткою «Першокласник 2022».
                     </code>
                   </InfoText>
+
+                  <InfoText
+                    showInfo={showInfo}
+                    onShowInfo={setShowInfo}
+                    infoTitle={'Розклад дзвінків'}
+                  >
+                    <code>
+                      <table className='info__table'>
+                        <thead className='info__thead'>
+                          <th>Урок</th>
+                          <th>Початок</th>
+                          <th>Кінець</th>
+                        </thead>
+                        <tr className='info__row'>
+                          <td>1</td>
+                          <td>8:30</td>
+                          <td>9:10</td>
+                        </tr>
+                        <tr className='info__row'>
+                          <td>2</td>
+                          <td>9:25</td>
+                          <td>10:05</td>
+                        </tr>
+                        <tr className='info__row'>
+                          <td>3</td>
+                          <td>10:25</td>
+                          <td>11:05</td>
+                        </tr>
+                        <tr className='info__row'>
+                          <td>4</td>
+                          <td>11:20</td>
+                          <td>12:00</td>
+                        </tr>
+                        <tr className='info__row'>
+                          <td>5</td>
+                          <td>12:10</td>
+                          <td>12:50</td>
+                        </tr>
+                        <tr className='info__row'>
+                          <td>6</td>
+                          <td>13:00</td>
+                          <td>13:40</td>
+                        </tr>
+                      </table>
+                    </code>
+                  </InfoText>
               </div>
             }
           </li>

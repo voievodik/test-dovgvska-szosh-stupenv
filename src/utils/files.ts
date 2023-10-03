@@ -11,6 +11,7 @@ import eduactionalProgram20222023 from '../assets/documents/Освітня пр�
 import schoolWorkPlan2022023 from '../assets/documents/План роботи школи 2022-2023.pdf';
 import academicIntegrity from '../assets/documents/АКАДЕМІЧНА ДОБРОЧЕСНІСТЬ для вчителя і учня!.pdf';
 import improvingQualification from '../assets/documents/Підвищення кваліфікації педпрацівників 2022-2023.pdf';
+import justificationOfPurchase from '../assets/documents/Обгрунтування закупівлі.pdf';
 
 export {
   rulesOfInternalProcedure,
@@ -26,4 +27,5 @@ export {
   statut,
   schoolServiceTerritory,
   sessionDecision,
+  justificationOfPurchase,
 };

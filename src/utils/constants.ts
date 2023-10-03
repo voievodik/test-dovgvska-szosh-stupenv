@@ -1,5 +1,5 @@
 //images
-import { academicIntegrity, license, materialAndTechnicalSupport, modeOfOperationOfTheSchool, onlineStudying, rulesOfInternalProcedure, schoolServiceTerritory, sessionDecision, statut, strategyOfTheEducationalInstitution } from './files';
+import { academicIntegrity, justificationOfPurchase, license, materialAndTechnicalSupport, modeOfOperationOfTheSchool, onlineStudying, rulesOfInternalProcedure, schoolServiceTerritory, sessionDecision, statut, strategyOfTheEducationalInstitution } from './files';
 import { 
   morshynRada, 
   ministryOfEducation, 
@@ -228,6 +228,11 @@ export const regulations = {
       id: 2,
       title: 'Стратегія закладу освіти',
       link: strategyOfTheEducationalInstitution,
+    },
+    {
+      id: 3,
+      title: 'Обґрунтування закупівлі',
+      link: justificationOfPurchase,
     },
   ]
 }
