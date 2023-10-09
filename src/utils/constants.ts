@@ -37,6 +37,8 @@ import {
   zhovtyDzien5,
   zhovtyDzien6,
   zhovtyDzien7,
+  dzienHudozhnuka1,
+  dzienHudozhnuka2,
 } from './images';
 
 export const menu = [
@@ -263,6 +265,22 @@ export const news = [
       zhovtyDzien7,
     ]
   },
+  {
+    id: 11,
+    title: 'До дня художника',
+    description: `
+      День художника в нашій школі був незабутнім подією. 
+      Діти мали можливість виразити свою творчість та фантазію.
+      Вони створювали чудові малюнки, використовуючи різні матеріали та техніки.
+      Цей день став не лише важливим кроком у розвитку їхнього мистецького таланту, але й веселим та навчальним досвідом.
+    `,
+    facebookPost: '',
+    mainImg: dzienHudozhnuka1,
+    date: '8 жовтня 2023 року',
+    newsImg: [
+      dzienHudozhnuka1,
+    ]
+  },
 ].reverse();
 
 export const regulations = {
@@ -455,5 +473,13 @@ export const gallery = [
   {
     id: 25,
     imgUrl: denMury3,
+  },
+  {
+    id: 26,
+    imgUrl: dzienHudozhnuka1,
+  },
+  {
+    id: 26,
+    imgUrl: dzienHudozhnuka2,
   },
 ].reverse();

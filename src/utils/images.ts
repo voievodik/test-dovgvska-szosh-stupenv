@@ -46,6 +46,9 @@ import zhovtyDzien5 from '../assets/news/жовтий день 5.jpg';
 import zhovtyDzien6 from '../assets/news/жовтий день 6.jpg';
 import zhovtyDzien7 from '../assets/news/жовтий день 7.jpg';
 
+import dzienHudozhnuka1 from '../assets/news/День художника 1.jpg';
+import dzienHudozhnuka2 from '../assets/news/День художника 2.jpg';
+
 import structure from '../assets/structure.png';
 import photo1 from '../assets/gallery/photo1.jpg';
 import photo2 from '../assets/gallery/photo2.jpg';
@@ -92,4 +95,6 @@ export {
   zhovtyDzien5,
   zhovtyDzien6,
   zhovtyDzien7,
+  dzienHudozhnuka1,
+  dzienHudozhnuka2,
 }
