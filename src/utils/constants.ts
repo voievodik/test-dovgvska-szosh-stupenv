@@ -24,7 +24,19 @@ import {
   photo1,
   photo2,
   vshanuvannyaHeroya2,
-  vshanuvannyaHeroya1
+  vshanuvannyaHeroya1,
+  biblioniania1,
+  biblioniania2,
+  biblioniania3,
+  biblioniania4,
+  biblioniania5,
+  zhovtyDzien1,
+  zhovtyDzien2,
+  zhovtyDzien3,
+  zhovtyDzien4,
+  zhovtyDzien5,
+  zhovtyDzien6,
+  zhovtyDzien7,
 } from './images';
 
 export const menu = [
@@ -213,6 +225,44 @@ export const news = [
       vshanuvannyaHeroya2,
     ]
   },
+  {
+    id: 9,
+    title: 'Бібліоняня - це сучасний ігровий простір для найменших відвідувачів.',
+    description: `
+    За сприяння дитячого фонду ООН Unicef та Міжнародного фонду охорони навколишнього середовища "Регіон Карпат" NEEKA Ukraine одразу у двох закладах Моршинської громади  відбулося відкриття нових навчально-розвивальних просторів «Бібліоняня».
+    Відкриття відбулося за участю Моршинського міського голови Руслана Ільницького, представників міжнародних фондів, працівників Моршинської міської ради, духовенства та громадськості.
+    «Бібліоняня» працюватиме в приміщенні КЗ «Центральна публічна бібліотека Моршинської територіальної громади» Моршинської міської ради та Початковій школі із дошкільним відділенням с. Довге, Моршинської міської ради.
+    Бібліоняня - це сучасний ігровий простір для найменших відвідувачів. Яскрава дитяча кімната із пізнавальною літературою, забавками, пазлами,  іграми та мультимедією.
+    «Бібліоняня» з нетерпінням очікує на допитливих дітлахів
+    `,
+    facebookPost: 'https://www.facebook.com/morshynrada/posts/pfbid0JA2eXaWRAxv42eAHFMm7qdVwHqBBbHFjixFLekDdoYDdGDrFfL13MMcPoJsMJ5ail',
+    mainImg: biblioniania1,
+    date: '6 жовтня 2023 року',
+    newsImg: [
+      biblioniania1,
+      biblioniania2,
+      biblioniania3,
+      biblioniania4,
+      biblioniania5,
+    ]
+  },
+  {
+    id: 10,
+    title: '8 жовтня - день художника України',
+    description: 'Учні школи разом із вчителями завжди активно беруть участь в таких заходах',
+    facebookPost: '',
+    mainImg: zhovtyDzien1,
+    date: '8 жовтня 2023 року',
+    newsImg: [
+      zhovtyDzien1,
+      zhovtyDzien2,
+      zhovtyDzien3,
+      zhovtyDzien4,
+      zhovtyDzien5,
+      zhovtyDzien6,
+      zhovtyDzien7,
+    ]
+  },
 ].reverse();
 
 export const regulations = {
@@ -357,5 +407,53 @@ export const gallery = [
   {
     id: 13,
     imgUrl: denMury3,
+  },
+  {
+    id: 14,
+    imgUrl: biblioniania1,
+  },
+  {
+    id: 15,
+    imgUrl: zhovtyDzien4,
+  },
+  {
+    id: 16,
+    imgUrl: biblioniania3,
+  },
+  {
+    id: 17,
+    imgUrl: zhovtyDzien1,
+  },
+  {
+    id: 18,
+    imgUrl: zhovtyDzien3,
+  },
+  {
+    id: 19,
+    imgUrl: biblioniania5,
+  },
+  {
+    id: 20,
+    imgUrl: biblioniania2,
+  },
+  {
+    id: 21,
+    imgUrl: zhovtyDzien7,
+  },
+  {
+    id: 22,
+    imgUrl: zhovtyDzien5,
+  },
+  {
+    id: 23,
+    imgUrl: zhovtyDzien6,
+  },
+  {
+    id: 24,
+    imgUrl: zhovtyDzien2,
+  },
+  {
+    id: 25,
+    imgUrl: biblioniania4,
   },
 ].reverse();

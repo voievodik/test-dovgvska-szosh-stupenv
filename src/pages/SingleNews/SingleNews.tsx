@@ -49,7 +49,7 @@ export const SingleNews = () => {
             href={currentNews?.facebookPost}
             target='_blank'
           >
-            Переглянути відео у фейсбуці
+            Переглянути пост у фейсбуці
           </a>
         )}
       </div>

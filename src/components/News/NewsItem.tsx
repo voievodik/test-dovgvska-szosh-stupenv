@@ -37,7 +37,7 @@ export const NewsItem: React.FC<Props> = ({ newsItem }) => {
         <p className='posts__description'>
           {normalizeDescription(description)}
           <Link to={`/news/${id}`} className='posts__read-more'>
-            Читати більше...
+            Дивитись більше...
           </Link>
         </p>
       )}

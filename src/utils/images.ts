@@ -32,6 +32,19 @@ import svyatyyMykolay from '../assets/news/Святий Миколай.jpg';
 import urokDobroty from '../assets/news/Урок доброти.jpg';
 import vshanuvannyaHeroya1 from '../assets/news/Вшанування героя 1.jpg';
 import vshanuvannyaHeroya2 from '../assets/news/Вшанування героя 2.jpg';
+import biblioniania1 from '../assets/news/Бібліоняня 1.jpg';
+import biblioniania2 from '../assets/news/Бібліоняня 2.jpg';
+import biblioniania3 from '../assets/news/Бібліоняня 3.jpg';
+import biblioniania4 from '../assets/news/Бібліоняня 4.jpg';
+import biblioniania5 from '../assets/news/Бібліоняня 5.jpg';
+
+import zhovtyDzien1 from '../assets/news/жовтий день 1.jpg';
+import zhovtyDzien2 from '../assets/news/жовтий день 2.jpg';
+import zhovtyDzien3 from '../assets/news/жовтий день 3.jpg';
+import zhovtyDzien4 from '../assets/news/жовтий день 4.jpg';
+import zhovtyDzien5 from '../assets/news/жовтий день 5.jpg';
+import zhovtyDzien6 from '../assets/news/жовтий день 6.jpg';
+import zhovtyDzien7 from '../assets/news/жовтий день 7.jpg';
 
 import structure from '../assets/structure.png';
 import photo1 from '../assets/gallery/photo1.jpg';
@@ -67,4 +80,16 @@ export {
   photo2,
   vshanuvannyaHeroya1,
   vshanuvannyaHeroya2,
+  biblioniania1,
+  biblioniania2,
+  biblioniania3,
+  biblioniania4,
+  biblioniania5,
+  zhovtyDzien1,
+  zhovtyDzien2,
+  zhovtyDzien3,
+  zhovtyDzien4,
+  zhovtyDzien5,
+  zhovtyDzien6,
+  zhovtyDzien7,
 }
