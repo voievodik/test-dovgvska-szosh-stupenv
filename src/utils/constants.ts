@@ -406,7 +406,7 @@ export const gallery = [
   },
   {
     id: 13,
-    imgUrl: denMury3,
+    imgUrl: biblioniania4,
   },
   {
     id: 14,
@@ -454,6 +454,6 @@ export const gallery = [
   },
   {
     id: 25,
-    imgUrl: biblioniania4,
+    imgUrl: denMury3,
   },
 ].reverse();
