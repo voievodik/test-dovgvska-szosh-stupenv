@@ -66,6 +66,8 @@ import perszyDzvonyk1 from '../assets/news/Перший дзвоник 1.jpg';
 import perszyDzvonyk2 from '../assets/news/Перший дзвоник 2.jpg';
 import perszyDzvonyk3 from '../assets/news/Перший дзвоник 3.jpg';
 
+import rukzak1 from '../assets/news/Рюкзак 1.jpg';
+
 import structure from '../assets/structure.png';
 import photo1 from '../assets/gallery/photo1.jpg';
 import photo2 from '../assets/gallery/photo2.jpg';
@@ -129,4 +131,5 @@ export {
   dzienHudozhnuka12,
   dzienHudozhnuka13,
   dzienHudozhnuka14,
+  rukzak1,
 }

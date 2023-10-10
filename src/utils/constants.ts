@@ -53,6 +53,7 @@ import {
   dzienHudozhnuka12,
   dzienHudozhnuka13,
   dzienHudozhnuka14,
+  rukzak1,
 } from './images';
 
 export const menu = [
@@ -317,6 +318,17 @@ export const news = [
       dzienHudozhnuka12,
       dzienHudozhnuka13,
       dzienHudozhnuka14,
+    ]
+  },
+  {
+    id: 13,
+    title: 'Вручення рюкзаків',
+    description: 'Вручення рюкзаків учням школи від іноземної неурядової організації "Людина в біді", Словацької республіки.',
+    facebookPost: '',
+    mainImg: rukzak1,
+    date: '10 жовтня 2023 року',
+    newsImg: [
+      rukzak1
     ]
   },
 ].reverse();
