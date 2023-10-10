@@ -38,7 +38,21 @@ import {
   zhovtyDzien6,
   zhovtyDzien7,
   dzienHudozhnuka1,
-  dzienHudozhnuka2,
+  perszyDzvonyk1,
+  perszyDzvonyk2,
+  perszyDzvonyk3,
+  dzienHudozhnuka3,
+  dzienHudozhnuka4,
+  dzienHudozhnuka5,
+  dzienHudozhnuka6,
+  dzienHudozhnuka7,
+  dzienHudozhnuka8,
+  dzienHudozhnuka9,
+  dzienHudozhnuka10,
+  dzienHudozhnuka11,
+  dzienHudozhnuka12,
+  dzienHudozhnuka13,
+  dzienHudozhnuka14,
 } from './images';
 
 export const menu = [
@@ -190,6 +204,19 @@ export const news = [
     ]
   },
   {
+    id: 12,
+    title: 'Свято першого дзвоника',
+    description: 'Перший дзвоник у початковій школі села Довге завжди запам"ятовується маленькими першокласниками як час, коли вони вперше вступають у світ навчання і разом із педагогами та однокласниками відкривають нову главу свого життя.',
+    facebookPost: '',
+    mainImg: perszyDzvonyk1,
+    date: '1 вересня 2023 рік',
+    newsImg: [
+      perszyDzvonyk1,
+      perszyDzvonyk2,
+      perszyDzvonyk3,
+    ]
+  },
+  {
     id: 6,
     title: 'День миру',
     description: 'В школі відбувся важливий захід, присвячений Дню миру, де учні разом обговорювали значення миру у світі. Акцентуючи на важливості толерантності, співпраці та вирішенні конфліктів мирними засобами, зокрема через освіту та спільну роботу.',
@@ -269,16 +296,27 @@ export const news = [
     id: 11,
     title: 'До дня художника',
     description: `
-      День художника в нашій школі був незабутнім подією. 
-      Діти мали можливість виразити свою творчість та фантазію.
+      День художника в нашій школі був незабутньою подією, діти мали можливість виразити свою творчість та фантазію.
       Вони створювали чудові малюнки, використовуючи різні матеріали та техніки.
       Цей день став не лише важливим кроком у розвитку їхнього мистецького таланту, але й веселим та навчальним досвідом.
     `,
     facebookPost: '',
-    mainImg: dzienHudozhnuka1,
+    mainImg: dzienHudozhnuka5,
     date: '8 жовтня 2023 року',
     newsImg: [
       dzienHudozhnuka1,
+      dzienHudozhnuka3,
+      dzienHudozhnuka4,
+      dzienHudozhnuka5,
+      dzienHudozhnuka6,
+      dzienHudozhnuka7,
+      dzienHudozhnuka8,
+      dzienHudozhnuka9,
+      dzienHudozhnuka10,
+      dzienHudozhnuka11,
+      dzienHudozhnuka12,
+      dzienHudozhnuka13,
+      dzienHudozhnuka14,
     ]
   },
 ].reverse();
@@ -476,10 +514,46 @@ export const gallery = [
   },
   {
     id: 26,
-    imgUrl: dzienHudozhnuka1,
+    imgUrl: dzienHudozhnuka14,
   },
   {
-    id: 26,
-    imgUrl: dzienHudozhnuka2,
+    id: 27,
+    imgUrl: dzienHudozhnuka12,
+  },
+  {
+    id: 28,
+    imgUrl: dzienHudozhnuka12,
+  },
+  {
+    id: 29,
+    imgUrl: dzienHudozhnuka11,
+  },
+  {
+    id: 30,
+    imgUrl: dzienHudozhnuka10,
+  },
+  {
+    id: 31,
+    imgUrl: dzienHudozhnuka9,
+  },
+  {
+    id: 32,
+    imgUrl: dzienHudozhnuka8,
+  },
+  {
+    id: 33,
+    imgUrl: dzienHudozhnuka7,
+  },
+  {
+    id: 34,
+    imgUrl: dzienHudozhnuka6,
+  },
+  {
+    id: 35,
+    imgUrl: dzienHudozhnuka5,
+  },
+  {
+    id: 36,
+    imgUrl: dzienHudozhnuka4,
   },
 ].reverse();

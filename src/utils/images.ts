@@ -48,6 +48,23 @@ import zhovtyDzien7 from '../assets/news/жовтий день 7.jpg';
 
 import dzienHudozhnuka1 from '../assets/news/День художника 1.jpg';
 import dzienHudozhnuka2 from '../assets/news/День художника 2.jpg';
+import dzienHudozhnuka3 from '../assets/news/День художника 3.jpg';
+import dzienHudozhnuka4 from '../assets/news/День художника 4.jpg';
+import dzienHudozhnuka5 from '../assets/news/День художника 5.jpg';
+import dzienHudozhnuka6 from '../assets/news/День художника 6.jpg';
+import dzienHudozhnuka7 from '../assets/news/День художника 7.jpg';
+import dzienHudozhnuka8 from '../assets/news/День художника 8.jpg';
+import dzienHudozhnuka9 from '../assets/news/День художника 9.jpg';
+import dzienHudozhnuka10 from '../assets/news/День художника 10.jpg';
+import dzienHudozhnuka11 from '../assets/news/День художника 11.jpg';
+import dzienHudozhnuka12 from '../assets/news/День художника 12.jpg';
+import dzienHudozhnuka13 from '../assets/news/День художника 13.jpg';
+import dzienHudozhnuka14 from '../assets/news/День художника 14.jpg';
+
+
+import perszyDzvonyk1 from '../assets/news/Перший дзвоник 1.jpg';
+import perszyDzvonyk2 from '../assets/news/Перший дзвоник 2.jpg';
+import perszyDzvonyk3 from '../assets/news/Перший дзвоник 3.jpg';
 
 import structure from '../assets/structure.png';
 import photo1 from '../assets/gallery/photo1.jpg';
@@ -97,4 +114,19 @@ export {
   zhovtyDzien7,
   dzienHudozhnuka1,
   dzienHudozhnuka2,
+  perszyDzvonyk1,
+  perszyDzvonyk2,
+  perszyDzvonyk3,
+  dzienHudozhnuka3,
+  dzienHudozhnuka4,
+  dzienHudozhnuka5,
+  dzienHudozhnuka6,
+  dzienHudozhnuka7,
+  dzienHudozhnuka8,
+  dzienHudozhnuka9,
+  dzienHudozhnuka10,
+  dzienHudozhnuka11,
+  dzienHudozhnuka12,
+  dzienHudozhnuka13,
+  dzienHudozhnuka14,
 }
